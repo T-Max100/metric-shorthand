@@ -4,7 +4,7 @@ prefixes = {24: ['yotta', 'Y'], 21: ['zetta', 'Z'], 18: ['exa', 'E'], 15: ['peta
             -3: ['milli', 'm'], -6: ['micro', 'µ'], -9: ['nano', 'n'], -12: ['pico', 'p'],
             -15: ['femto', 'f'], -18: ['atto', 'a'], -21: ['zepto', 'z'], -24: ['yocto', 'y']}
 units = [['meter', 'm'], ['gram', 'g'], ['second', 's'],
-         ['ampere', 'A'], ['kelvin', 'K'], ['mole', 'mol'], ['candela', 'cd']]
+         ['ampere', 'A'], ['kelvin', 'K'], ['mole', 'mol'], ['candela', 'cd'], ['liter', 'L']]
 def shorthand(n, m):
     if m == 1:
         if n == -18:
